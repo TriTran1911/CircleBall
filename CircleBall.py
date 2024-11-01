@@ -3,7 +3,6 @@ import pygame
 import numpy as np
 import math
 
-
 class Ball:
     def __init__(self, position, velocity):
         self.pos =  np.array(position, dtype=np.float64)
